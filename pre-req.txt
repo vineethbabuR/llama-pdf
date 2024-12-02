@@ -5,3 +5,4 @@
 3. Install all the relevant embedding models, such as the below ( these can be found in the https://ollama.com/library 
      ollama pull nomic-embed-text
      ollama run llama3.2
+4. If you are running the app as streamlit, run it as streamlit run your_script.py
