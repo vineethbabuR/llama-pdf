@@ -1,0 +1,7 @@
+1. Make sure to download Ollama to your machine from https://ollama.com/download/OllamaSetup.exe
+2. You need to check that ollama is actually running, so try in windows 10 (ms-dos prompt or powershell)
+   curl 127.0.0.1:11434
+   You should get a "ollama is running" message
+3. Install all the relevant embedding models, such as the below ( these can be found in the https://ollama.com/library 
+     ollama pull nomic-embed-text
+     ollama run llama3.2
