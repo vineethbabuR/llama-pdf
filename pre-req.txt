@@ -6,3 +6,7 @@
      ollama pull nomic-embed-text
      ollama run llama3.2
 4. If you are running the app as streamlit, run it as streamlit run your_script.py
+
+5. If you want to download a model from hugging face, make sure to select a GGUF file from hugging face  similar to https://huggingface.co/arcee-ai/SuperNova-Medius-GGUF, copy it, and on the terminal type in 
+	ollama run hf.co/arcee-ai/SuperNova-Medius-GGUF
+	this will download the model to your local store
